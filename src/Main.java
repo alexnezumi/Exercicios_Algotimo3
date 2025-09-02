@@ -46,8 +46,25 @@ public class Main {
     }
     media = nota/quant;
         System.out.println("A média das notas digitadas são " + media);
-        
      */
+
+     //exercico 4 - Escreva um programa com um looping indeterminado com while em que enquanto o
+        //usuário não pedir para o programa sair, ele continua printando um contador na tela.
+
+    /*
+    Scanner grava = new Scanner(System.in);
+    int menu = 1, num = 0;
+
+        while (menu == 1){
+            System.out.println(num);
+            num++;
+            System.out.println("Deseja continuar? 1/sim 2/não");
+            menu = grava.nextInt();
+        }
+     */
+    //exercicio 5 - Faça um programa que peça ao usuário um número entre 12 e 20. Se a pessoa digitar
+        //um número diferente, mostrar a mensagem "entrada inválida" e solicitar o número
+        //novamente. Se digitar correto mostrar o número digitado.
 
     }
 }
