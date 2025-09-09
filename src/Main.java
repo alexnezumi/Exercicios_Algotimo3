@@ -1,4 +1,3 @@
-import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -91,12 +90,25 @@ public class Main {
         //entre 0 e 10 (incluindo) e mostrar a quantidade de tentativas feitas. Dica: Usar o
         //comando Random numero = new Random();
 
+        /*
+        Scanner grava = new Scanner(System.in);
+        Random num = new Random();
+        int random, x = 0;
+         random = num.nextInt(10);
 
-
-
-
-
-
+         while (x != random)
+         {
+             System.out.println("Tente acertar o número de 0 a 10");
+             x = grava.nextInt();
+             if (x == random)
+             {
+                 System.out.println("Parabens você acertou o número, ele era " + random);
+             }else
+             {
+                 System.out.println("Errou, tente novamente");
+             }
+         }
+         */
 
 
      // exercicio 7 - O usuário vai digitar uma nota válida (de 0 até 10). O programa deverá armazenar
@@ -104,6 +116,7 @@ public class Main {
         //foram armazenadas. Ao final, quando o usuário não quiser mais lançar notas, ele pede
         //para sair e o programa imprime na tela a média das notas
 
+        /*
         Scanner grava = new Scanner(System.in);
         double media, nota = 0, x;
         int menu = 1;
@@ -126,5 +139,6 @@ public class Main {
         }
         media = nota/quant;
         System.out.println("A média das notas digitadas são " + media);
+         */
     }
 }
